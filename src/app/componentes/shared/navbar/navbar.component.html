@@ -1,25 +1,54 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">
-          <img src="http://placehold.it/150x50?text=Logo" alt="">
-        </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse " id="navbarText">
-    <ul class="navbar-nav mr-auto offset-md-6">
-      <!--<li class="nav-item active">
-        <a class="estiloFuente nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>-->
-      <li class="nav-item" routerLinkActive ="active">
-        <a class="estiloFuente nav-link " [routerLink]="['beats']" href="#">Beats</a>
+<!-- header-start -->
+<header>
+  <div class="header-area ">
+      <div id="sticky-header" class="main-header-area">
+          <div class="container-fluid p-0">
+              <div class="row align-items-center no-gutters">
+                  <div class="col-xl-2 col-lg-2">
+                      <div class="logo-img">
+                          <a [routerLink]="['home']">
+                              <img src="../assets/img/logopeq2.png" alt="">
+                          </a>
+                      </div>
+                  </div>
+                  <!-- <div class="d-none d-xl-block">
+                      <div class="log_chat_area d-flex align-items-start">
+                          <a href="#" data-scroll-nav="0" class="say_hi">Say Hello</a>
+                      </div>
+                  </div> -->
+                  <div class="col-xl-8 col-lg-8">
+                      <div class="main-menu  d-none d-lg-block text-center">
+                          <nav>
+                              <ul id="navigation">
+                                  <li><a class="active" [routerLink]="['home']">Inicio</a></li>
+                                  <li><a>Nosotros</a></li>
+                                  <!--<li><a href="Portfolio.html"></a></li>-->
+                                  <!--<li><a [routerLink]="['beats']">Propuestas<i class="ti-angle-down"></i></a>
+                                      <ul class="submenu">
+                                          <li><a>Salud</a></li>
+                                          <li><a>Educacion</a></li>
+                                          <li><a>Vivienda</a></li>
+                                      </ul>
+                                  </li>-->
 
-      </li>
-      <li class="nav-item "routerLinkActive ="active">
-        <a class="estiloFuente nav-link" [routerLink]="['producciones']" href="#">Producciones</a>
-      </li>
- <!--<li class="nav-item "routerLinkActive ="active">
-        <a class="estiloFuente nav-link" [routerLink]="['contacto']" href="#">Contacto</a>
-      </li>-->
-    </ul>
+                                  <!--<li><a>blog <i class="ti-angle-down"></i></a>
+                                      <ul class="submenu">
+                                          <li><a>blog</a></li>
+                                          <li><a>single-blog</a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a>Contact</a></li> -->
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>
+
+                  <div class="col-12">
+                      <div class="mobile_menu d-block d-lg-none"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-</nav>
+</header>
+<!-- header-end -->
