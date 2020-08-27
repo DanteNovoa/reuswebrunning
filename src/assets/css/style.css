@@ -1699,16 +1699,30 @@ h3 {
 }
 .podcast-style{
   margin-bottom: 3rem;
-  background-color: #FAF4C2;
 }
 .vosec-foto{
   margin-top: 3rem;
 }
-.img-spotify{
-  margin-top: 2rem;
+.youtubeplayicon{
+  margin-left: 2rem;
 }
-.vos-area-desc{
-  background-color: #FFF0FA;
+.img-spotify:hover{
+  border: 1px solid purple
+}
+
+.spotifybutton{
+  color: green;
+  transition: transform .2s;
+}
+.spotifybutton:hover{
+  transform: scale(1.5); 
+}
+.youtubeplayicon{
+  color: red;
+  transition: transform .2s;
+}
+.youtubeplayicon:hover{
+  transform: scale(1.5);
 }
 @media (max-width: 767px) {
   /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
@@ -2746,6 +2760,10 @@ h3 {
 
 /* line 40, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service:hover {
+  border: 1px solid #615CFD;
+}
+
+.estilo-card:hover {
   border: 2px solid #615CFD;
 }
 
